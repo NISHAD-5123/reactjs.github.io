@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.Header a{
+  text-transform: capitalize;
+  color:white;
+  font-weight: 565;
+  text-decoration: none;
+  margin:.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.Header{
+  background-color: #096d6d;
+  padding:10px;
+}
+.Header a:hover{
+  color:orange
+}
+.signup a{
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.signup a:hover{
+  background-color: #1a1fac;
+  border-radius: 5px;
+  color:white;
+}
+.brand-name{
+  color:#2e8b8b
+}
+.Home img{
+  height: 600px;
+  width: 600px;
+}
+.Home a{
+  color:black;
+  text-decoration: none;
+}
+.btn-get-started a{
+  transition:linear;
+  background-color: #42cece;
+  color:black;
+  padding: 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 25px;
+}
+.btn-get-started a:hover{
+  border: 2px solid rgb(35, 15, 29);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.btn-get-started{
+  margin-top: 1rem;
+}
+
+.shift-right{
+  margin-left: 5rem;
+}
+#brand{
+  font-size: 1.5rem;
+  color:white;
+}
+/* #sticky{
+  position:sticky;
+  left:0px;
+  top:0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  z-index:100;
+} */
+
+
+.text_data input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px 0px 10px 40rem;
+  padding:5px 10px;
+  text-indent: 5px;
+  border-radius: 25px;
+  background-color: rgb(221, 210, 210);
+}
+
+.Flex{
+  display: flex;
+  align-items: center;
+  float: left;
+  width:25rem;
+}
+
+.logo{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:2rem;
+}
+.logo img{
+  height:60px;
+  width:100px;
+}
+.UniversityList{
+  background-color: #cfe4e4;
+  padding:4rem;
+}
+.common{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Footer ul{
+  list-style: none;
+}
+.Footer ul li{
+  margin:.6rem;
+}
+.Footer ul li a{
+  text-decoration: none;
+  color:#111212;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+}
+/* .Footer .Section_three ul li a .btn{
+  background-color:#47d7d7;
+} */
+.Footer{
+  position:relative;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding:4rem;
+  background-color: #cfe4e4;
+  margin-top: 5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.common .Heading{
+      font-size: 18px;
+      font-weight: 600;
+}
+.common .Heading h3{
+  color: #b44593;
+}
+.Footer a:hover{
+ text-decoration: underline;
+}
+.Website_Logo{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+}
+.gradient-custom-2 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+  /* homepage css property */
+  @media (max-width: 1045px){
+      .logo{
+        display:flex;
+        gap:.5rem;
+        flex-basis:25%;
+      }
+  }
+  @media screen and (max-width:768px){
+    .Flex-1{
+      display: flex;
+      flex-direction: column;
+      width:100%;
+      margin: auto;
+    }
+
+    .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .Home img{
+      height: 300px;
+      width: 300px;
+    }
+    .Footer{
+      /* margin-top:1rem;
+      display: flex;
+      flex-direction: column; */
+    }
+
+    .Footer ul li{
+      margin:.1rem;
+    }
+    .Footer ul {
+      padding-left:1rem;
+    }
+    .Footer a .fab{
+      font-size: 10px;
+    }
+    .Footer{
+      position:relative;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      padding:.5rem;
+      background-color: #cfe4e4;
+      margin-top: 3rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+    }
+    .Footer .Section_three ul li a .btn{
+      font-size: 7px;
+    }
+    .common .Heading{
+          font-size: 20px;
+          font-weight: 600;
+    }
+    .common .Heading h3{
+      color: #b44593;
+    }
+    .Footer a:hover{
+     text-decoration: underline;
+    }    
+
+
+    .signup a{
+      background-color: #096d6d;
+      padding:0px;
+    }
+    .logo img{
+      height: 250px;
+      width:250px;
+    }
+    .UniversityList{
+      padding:0px;
+    }
+  }
